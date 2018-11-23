@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bullet
+  - AI
+  - Weapon
+  - enemy
+  - info
+  - holding
   layers:
   - Default
   - TransparentFX
@@ -38,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 528061201
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
